@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder/common/verlib/*",
+                "/usr/include/c++/7.4.0/**",
+                "/usr/include/x86_64-linux-gnu/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools", 
+            "compilerArgs": ["-DUseSetbenchTids", "-DBoycottParlay", "-DNoHelp", "-DHashLock", "-DParlayDistributions", "-DPregenerateOpTypes"]
+        }
+    ],
+    "version": 4
+}

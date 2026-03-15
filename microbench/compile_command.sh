@@ -1,0 +1,1 @@
+g++ parlay_threading.cpp -std=c++17 find ../common -type d | sed s/^/-I/

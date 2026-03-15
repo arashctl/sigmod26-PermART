@@ -1,0 +1,14 @@
+<html>
+<head>
+<style>
+body {
+    font-size: 1em !important;
+    color: #b0b4b8 !important;
+    font-family: Arial !important;
+}
+</style>
+</head>
+<body bgcolor="#252729">
+<h1>Raw log file output</h1>
+
+<pre>

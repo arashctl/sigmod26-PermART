@@ -1,0 +1,18 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.tabSize": 4,
+    "clangd.path": "clangd",
+    "clangd.arguments": ["-log=verbose", 
+                         "-pretty", 
+                         "--background-index", 
+                        //  "--query-driver=/bin/arm-buildroot-linux-gnueabihf-g++", //for cross compile usage
+                         "--compile-commands-dir=${workspaceFolder}/out/"], 
+    "cmake.configureArgs": [
+        // this is the ds name that chooses the build 
+        // It's supposed to help with intellisense and to make sure the lsp gets the right flags in only once instance in the compile_commands.json
+        "-Dds_name=04-artifact",
+    ],
+    "python.analysis.autoImportCompletions": true,
+    // set out/ as the build directory
+    "cmake.buildDirectory": "${workspaceFolder}/out",
+}

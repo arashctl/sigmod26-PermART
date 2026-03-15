@@ -1,0 +1,20 @@
+{
+    "ignore": ["X"],
+    "ordering": ["B", "A"], 
+    "translate": {
+        "A": "Plot A", 
+        "B": "Plot B"
+    }, 
+    "patterns": {
+        "A": "o", 
+        "B": "x"
+    }, 
+    "markers": {
+        "A": "v", 
+        "B": "o"
+    }, 
+    "colors": {
+        "A": 0, 
+        "B": 3
+    }
+}
